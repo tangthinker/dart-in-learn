@@ -1,5 +1,6 @@
 import 'package:dart_in_learn/_1_intro.dart' as _1_intro;
 import 'package:dart_in_learn/_2_variable.dart' as _2_variable;
+import 'package:dart_in_learn/_3_concurrency.dart' as _3_concurrency;
 
 void main(List<String> arguments) {
 
@@ -9,5 +10,7 @@ void main(List<String> arguments) {
       _1_intro.intro();
     case '2':
       _2_variable.variable();
+    case '3':
+      _3_concurrency.concurrency();
   }
 }
